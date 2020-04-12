@@ -1,0 +1,60 @@
+@media screen and (max-width: 1200px){
+    .row {
+        width:100%;
+        padding: 0 30px;
+        
+    }
+}
+@media screen and (max-width: 1024px){
+    .grid-about-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        
+    }
+    .paul{
+        width: 70%;
+      
+    }
+
+    .grid-process-container, 
+    .grid-portfolio-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-portfolio-items:nth-child(5){
+        grid-column: 1/2;
+       
+    }
+    .grid-portfolio-items:nth-child(7){
+        
+    }
+        
+}
+
+@media screen and (max-width: 768px){
+    .grid-experience-container,
+    .grid-contact-container {
+        grid-template-columns: 1fr;
+        }
+     #amazon{
+       background-attachment: scroll; 
+    }
+    #contact{
+        background-attachment: scroll;
+    }
+}
+  
+
+@media screen and (max-width: 480px){
+    html,
+    body{
+        font-size: 10px;
+    }
+    .grid-process-container,
+    .grid-portfolio-container {
+        grid-template-columns: 1fr;
+         background-attachment: scroll;
+    }
+   
+    
+}
+
